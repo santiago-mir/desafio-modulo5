@@ -69,4 +69,4 @@ class CustomStone extends HTMLElement {
     this.shadow.appendChild(style);
   }
 }
-customElements.define("custom-stone", CustomImage);
+customElements.define("custom-stone", CustomStone);
