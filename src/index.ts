@@ -7,6 +7,7 @@ import { state } from "./state";
 
 function main() {
   const container = document.querySelector(".root");
+
   state.initHistory();
   initRouter(container!);
 }
