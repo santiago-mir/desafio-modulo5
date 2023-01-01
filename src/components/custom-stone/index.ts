@@ -1,6 +1,5 @@
 class CustomStone extends HTMLElement {
   shadow: ShadowRoot;
-
   constructor() {
     super();
     this.shadow = this.attachShadow({ mode: "open" });
@@ -10,7 +9,7 @@ class CustomStone extends HTMLElement {
   }
 
   render() {
-    const imgURL = require("url../../assets/piedra.png");
+    const imgURL = require("url:../../assets/piedra.png");
     const style = document.createElement("style");
     style.innerHTML = `
             .imagen{
