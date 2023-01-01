@@ -7,6 +7,7 @@ export function initWelcomePage(params) {
     <custom-image class="imagen" type="tijera"></custom-image>
     <custom-image class="imagen" type="piedra"></custom-image>
     <custom-image class="imagen" type="papel"></custom-image>
+    <custom-stone class="imagen"</custom-stone>
     </div>
   `;
   div.classList.add("main-container");
