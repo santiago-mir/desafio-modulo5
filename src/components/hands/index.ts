@@ -16,9 +16,9 @@ class CustomImage extends HTMLElement {
   }
 
   getImageURL(type: string) {
-    const piedraURL = require("url:../../../src/assets/piedra.png");
-    const papelURL = require("url:../../../src/assets/papel.png");
-    const tijeraURL = require("url:../../../src/assets/tijera.png");
+    const piedraURL = require("url:../../assets/piedra.png");
+    const papelURL = require("url:../../assets/papel.png");
+    const tijeraURL = require("url:../../assets/tijera.png");
     const URLFound = [piedraURL, papelURL, tijeraURL].find((element) =>
       element.includes(type)
     );
