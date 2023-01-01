@@ -79,9 +79,9 @@ class CustomImage extends HTMLElement {
       `;
 
     const imgURL = this.getImageURL(this.type);
-
+    const nuevaURL = require("url:../../assets/piedra.png");
     this.shadow.innerHTML = `
-          <img  class="${this.classList}" src=${imgURL}/>
+          <img  class="${this.classList}" src=${nuevaURL}/>
       `;
     const img = this.shadow.querySelector(".imagen");
     if (this.status == "active") {
