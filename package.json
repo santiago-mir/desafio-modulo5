@@ -1,7 +1,6 @@
 {
   "name": "desafio-modulo5",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.18",
