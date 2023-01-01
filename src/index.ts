@@ -1,7 +1,6 @@
 import "./components/button";
 import "./components/text";
 import "./components/hands";
-
 import { initRouter } from "./router";
 import { state } from "./state";
 
