@@ -3,9 +3,9 @@ import { state } from "../../state";
 export function initResults(params) {
   const div = document.createElement("div");
   const style = document.createElement("style");
-  const winURL = require("url:../../assets/ganaste.png");
-  const lossURL = require("url:../../assets/perdiste.png");
-  const tieURL = require("url:../../assets/empate.png");
+  const winURL = require("url:../../imagen/ganaste.png");
+  const lossURL = require("url:../../imagen/perdiste.png");
+  const tieURL = require("url:../../imagen/empate.png");
 
   function processResults() {
     const currentGame = state.getState().currentGame;
