@@ -32,7 +32,7 @@ export function initResults(params) {
 
     <div class="results-container">
     <div class="img-container">
-      <img src=${processResults().imgURL}/>
+      <img src="${processResults().imgURL}"/>
       </div>
      <div class="score-container">
      <custom-text tag="h1" type="paragraph">Score</custom-text>
