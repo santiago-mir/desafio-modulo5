@@ -1,9 +1,11 @@
 export function initWelcomePage(params) {
   const div = document.createElement("div");
+  const url = require("url:../../imagen/piedra.png");
   div.innerHTML = `
     <custom-text class="title">Piedra Papel o Tijera</custom-text>
     <custom-button class="button">Empezar</custom-button>
     <div class="hands-container">
+    <img src="${url}"/>
     <custom-image class="imagen" type="tijera"></custom-image>
     <custom-image class="imagen" type="piedra"></custom-image>
     <custom-image class="imagen" type="papel"></custom-image>
