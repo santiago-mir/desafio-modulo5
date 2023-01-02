@@ -5,7 +5,8 @@ export function initWelcomePage(params) {
     <custom-text class="title">Piedra Papel o Tijera</custom-text>
     <custom-button class="button">Empezar</custom-button>
     <div class="hands-container">
-    <img src="${url}"/>
+    <img src=${url}/>
+    <img src=${url}/>
     <custom-image class="imagen" type="tijera"></custom-image>
     <custom-image class="imagen" type="piedra"></custom-image>
     <custom-image class="imagen" type="papel"></custom-image>

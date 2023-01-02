@@ -81,7 +81,7 @@ class CustomImage extends HTMLElement {
     const imgURL = this.getImageURL(this.type);
 
     this.shadow.innerHTML = `
-          <img  class="${this.classList}" src="${imgURL}"/>
+          <img  class="${this.classList}" src=${imgURL}/>
       `;
     const img = this.shadow.querySelector(".imagen");
     if (this.status == "active") {
