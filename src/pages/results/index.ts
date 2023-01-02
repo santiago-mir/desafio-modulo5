@@ -15,13 +15,17 @@ export function initResults(params) {
     if (result == true) {
       background = "rgb(95 203 99 / 90%);";
       imgURL = winURL;
+      console.log(imgURL);
+
       return { imgURL, background };
     } else if (result == false) {
       background = "rgba(137, 73, 73, 0.9);";
       imgURL = lossURL;
+      console.log(imgURL);
       return { imgURL, background };
     } else background = "rgb(254 211 92 / 90%);";
     imgURL = tieURL;
+    console.log(imgURL);
     return { imgURL, background };
   }
 

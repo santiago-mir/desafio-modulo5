@@ -79,7 +79,6 @@ class CustomImage extends HTMLElement {
       `;
 
     const imgURL = this.getImageURL(this.type);
-    console.log(imgURL);
 
     this.shadow.innerHTML = `
           <img  class="${this.classList}" src="${imgURL}"/>
